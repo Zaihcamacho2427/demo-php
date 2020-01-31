@@ -3,9 +3,9 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 
-$servername = "localhost";
-$username = "root";
-$password = "root";
+$servername = "k2fqe1if4c7uowsh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+$username = "tv8hy5xvcsed77v3";
+$password = "h5f7psinzlm7xglc";
 $dbname = "php2-store";
 
 // Create connection
