@@ -2,9 +2,9 @@
 class Database{
     
     
-    private $dbservername = "localhost";
-    private $dbusername = "root";
-    private $dbpassword = "root";
+    private $dbservername = "k2fqe1if4c7uowsh.cbetxkdyhwsb.us-east-1.rds.amazonaws.com";
+    private $dbusername = "tv8hy5xvcsed77v3";
+    private $dbpassword = "h5f7psinzlm7xglc";
     private $dbname = "php2-store";
     
     function getConnection(){
