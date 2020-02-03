@@ -35,9 +35,9 @@ include 'header2.php';
     </select>
   </div>
   
-      <div class="PassWord">
-    <label for="PassWord">Password: </label>
-    <input type="password" class="form-control" id="PassWord" placeholder="Password" name= "PassWord">
+      <div class="form-group">
+    <label for="password">Password: </label>
+    <input type="password" class="form-control" id="password" placeholder="Password" name= "password">
   </div>
   
   <button type="submit" class="btn btn-primary">Ok</button>
