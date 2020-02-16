@@ -3,12 +3,19 @@ env: flex
 
 runtime_config:
   document_root: public
+    skip_lockdown_document_root: true
 
 env_variables:
   # Put production environment variables here.
-  APP_LOG: errorlog
   APP_KEY: base64:law5wIwE8KAUMixI70hQp85mUI5jj06jcKPlV2wGeo4=
-  STORAGE_DIR: /tmp
+  APP_STORAGE: /tmp
+  VIEW_COMPILED_PATH: /tmp
+  SESSION_DRIVER: cookie
+  APP_ENV: google
+  
+    handlers:
+  - url: /resources
+  static_dir: resources
 
 # This sample incurs costs to run on the App Engine flexible environment.
 # The settings below are to reduce costs during testing and are not appropriate
