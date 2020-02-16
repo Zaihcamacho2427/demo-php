@@ -4,6 +4,9 @@ env: flex
 runtime_config:
   document_root: public
     skip_lockdown_document_root: true
+    
+    beta_settings:
+    cloud_sql_instances: php-store-267816:us-central1:php-store
 
 env_variables:
   # Put production environment variables here.
